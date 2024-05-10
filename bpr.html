@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaisei+Decol&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="proj-styles.css" />
+    <title>Brown Political Review</title>
+  </head>
+  <body>
+    <header id="header" class="solid">
+      <div class="container-header">
+        <div class="logo">
+          <a href="main.html#" class="no-link-style"><strong> BW</strong></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="main.html#about">About</a></li>
+            <li><a href="main.html#projects">Projects</a></li>
+            <li>
+              <a href="/public/CS Resume 2024.pdf" target="_blank">Resume</a>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="title">
+      <div class="container">
+        <h1>BPR News Site</h1>
+      </div>
+      <div class="background-box" id="date-box">
+        <h4>Jan - May 2024*</h4>
+      </div>
+      <div class="description-box">
+        <h3>
+          <em>Role:</em> Full-stack Developer and Designer | <em>Focus:</em>
+          Database Design, CMS Integration, UI/UX
+        </h3>
+        <p>
+          <strong> * Please note this is an ongoing project. </strong>
+        </p>
+        <p>
+          <strong> The challenge: </strong> With soon-expiring licensing, Brown
+          Political Review's website needed a complete rebuild. BPR Executive
+          Board decided to transition away from external hosting like Wix and
+          instead create an independently built site to promote longevity and
+          flexibility. The program needed the ability to maintain and update a
+          database of articles, alongside other sorting, display, and editing
+          features.
+        </p>
+      </div>
+    </section>
+    <div class="project-box">
+      <div class="project-image">
+        <img src="public/bpr/bpr1.png" alt="Bpr 1" />
+        <img src="public/bpr/bpr2.png" alt="Bpr 2" />
+        <img src="public/bpr/bpr3.png" alt="Bpr 3" />
+      </div>
+      <div class="project-info">
+        <p>
+          <strong> The solution: </strong> A clean, engaging platform with an
+          MySQL article database and a custom CMS for simplified administrator
+          editing.
+        </p>
+        <br />
+        <br />
+        <div class="design-prototyp">
+          <div class="background-box">
+            <h4>1. Design and Prototyping</h4>
+          </div>
+          <p>
+            Much of the typography and styling elements from the original site
+            were carried over to the new one to maintain brand consistency. One
+            of the most notable changes is the transition to a more artistic and
+            image-forward main page, and more varied organization of the
+            articles rather than only grids. Additonally, we wanted a greater
+            magazine feature instead of just listing its articles. A prototype
+            was designed in Figma with other members of the BPR Web Team, which
+            has served as my basis moving forward.
+          </p>
+          <div class="images-1">
+            <img src="public/bpr/bpr-head.png" alt="Bpr 1" />
+            <img src="public/bpr/bpr-mag.png" alt="Bpr 1" />
+          </div>
+        </div>
+        <br />
+        <div class="database-creation">
+          <div class="background-box">
+            <h4>2. Database Creation</h4>
+          </div>
+          <p>
+            My next step was to begin the article database. Each article needed
+            to contain a title, a brief description, an author, a date, the
+            categories it was a part of, the cover image, and any additional
+            images. Using MySQL, I was able to create a preliminary database
+            with a few articles in order to test its functionality. Once
+            finalized, all BPR articles can be uploaded, managed, edited, and
+            deleted in the database using the CMS.
+          </p>
+        </div>
+        <br />
+        <div class="cms-system">
+          <div class="background-box">
+            <h4>3. Content Management System Integration</h4>
+          </div>
+          <p>A work in progress:</p>
+        </div>
+        <br />
+        <div class="full-stack-dev">
+          <div class="background-box">
+            <h4>4. Full-stack Development</h4>
+          </div>
+          <p>A work in progress:</p>
+        </div>
+        <br />
+        <div class="full-stack-dev">
+          <div class="background-box">
+            <h4>5. Final Thoughts</h4>
+          </div>
+          <p>
+            As the most complex project I've taken on yet, building this site
+            offered a special experience to be part of a real site's development
+            from start to end.
+          </p>
+        </div>
+        <br />
+      </div>
+    </div>
+    <footer id="contact">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="mailto:brooke_wangenheim@brown.edu" target="_blank"
+              >Email: brooke_wangenheim@brown.edu</a
+            >
+          </li>
+          <li>
+            <a href="/public/CS Resume 2024.pdf" target="_blank">Resume</a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/brooke-wangenheim/"
+              target="_blank"
+            >
+              LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
