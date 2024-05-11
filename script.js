@@ -19,3 +19,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const header = document.getElementById("header");
+  const aboutSection = document.getElementById("about");
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY >= aboutSection.offsetTop - 150) {
+      header.classList.add("solid");
+    } else {
+      header.classList.remove("solid");
+    }
+  });
+});
