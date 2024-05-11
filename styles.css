@@ -231,14 +231,22 @@ h3 {
   text-decoration: none;
 }
 
+.project-image {
+  filter: saturate(0%);
+}
+
 .project-image img {
   max-width: 330px;
   border-style: solid;
   border-width: 7px;
   border-color: black;
   margin-right: 20px;
-  filter: saturate(0%);
+  /* filter: saturate(0%); */
   transition: transform 0.5s ease;
+}
+
+.project-image:hover {
+  filter: saturate(50%);
 }
 
 #contact {
